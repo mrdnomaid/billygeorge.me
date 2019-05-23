@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding-top: 20vh;
+  min-height: 80vh;
+  font-family: 'Source Code Pro', monospace;
+  background: #996300;
+  background: linear-gradient(135deg, #b38f4d 0%, #bf9240 30%, #ffa500 100%);
+  color: #222;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h1 {
+  font-weight: 900;
+  letter-spacing: 0.2em; }
+
+h2 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2em; }
+
+a {
+  color: #1a1100;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+main {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 8px 32px 4px #664200;
+  border-radius: 8px; }
+  main div#mainInner {
+    position: relative;
+    left: -2vw; }
+  main img {
+    height: 25vh;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    float: left;
+    position: relative;
+    top: -6vh;
+    left: -4vw; }
+  main div#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    main div#buttons a {
+      display: inline-block;
+      text-align: center;
+      width: calc(100% / 4); }
+      main div#buttons a i {
+        opacity: 0.8;
+        font-size: 2em;
+        width: 100%;
+        transition: opacity 0.3s, transform 0.3s ease-in-out; }
+    main div#buttons a:hover i {
+      opacity: 0.5;
+      transform: scale(1.2); }
+
+p#footer {
+  position: fixed;
+  bottom: 2px;
+  right: 4px;
+  font-size: 0.8em;
+  opacity: 0.8; }
+  p#footer a {
+    color: #000; }
+    p#footer a i {
+      display: inline-block;
+      opacity: 0.8;
+      transition: opacity 0.2s, scale 0.2s; }
+    p#footer a:hover i {
+      opacity: 1;
+      transform: scale(1.2); }
+
+@media screen and (max-width: 1200px), screen and (max-height: 750px) {
+  body {
+    padding-top: 0;
+    min-height: 100vh; }
+
+  main div#mainInner {
+    position: relative;
+    left: 0; }
+  main img {
+    height: 30%;
+    border: 4px solid #cc9633;
+    float: none;
+    top: 0;
+    left: 0; }
+  main div#buttons {
+    display: block; }
+    main div#buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 8px 0;
+      font-size: 1.5em; }
+      main div#buttons a:hover {
+        text-decoration: none; }
+        main div#buttons a:hover span {
+          text-decoration: underline; }
+      main div#buttons a span {
+        margin-right: 0.4em; }
+      main div#buttons a i {
+        width: 1em;
+        text-align: center; } }
+@media screen and (max-width: 500px) {
+  h1 {
+    letter-spacing: normal; }
+
+  h2 {
+    letter-spacing: normal; } }
+.shadow {
+  animation: shadowIn 1s, fadeInUp 1s; }
+
+@keyframes shadowIn {
+  from {
+    box-shadow: 0 -16px 8px 8px #996300; }
+  to {
+    box-shadow: 0 8px 32px 4px #664200; } }
+
+/*# sourceMappingURL=home.css.map */
