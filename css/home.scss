@@ -14,11 +14,11 @@ body {
   background: linear-gradient(135deg, desaturate($accent, 60%) 0%, desaturate($accent, 50%) 30%, $accent 100%);
   color: #222;
   font-weight: 400;
-  text-transform: lowercase;
+  // text-transform: lowercase;
 }
 
 h1 {
-  font-size: 1.8em; 
+  font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 0.2em;
 }
