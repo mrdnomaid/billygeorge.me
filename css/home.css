@@ -9,8 +9,7 @@ body {
   background: #996300;
   background: linear-gradient(135deg, #b38f4d 0%, #bf9240 30%, #ffa500 100%);
   color: #222;
-  font-weight: 400;
-  text-transform: lowercase; }
+  font-weight: 400; }
 
 h1 {
   font-size: 1.8em;
