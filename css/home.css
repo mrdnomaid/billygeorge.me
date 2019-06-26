@@ -13,6 +13,7 @@ body {
   text-transform: lowercase; }
 
 h1 {
+  font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 0.2em; }
 
